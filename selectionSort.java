@@ -30,8 +30,6 @@ public class selectionSort {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-
-        // Create an object to call the non-static method
         selectionSort sorter = new selectionSort();
         sorter.Selection_sort(arr, n);
     }
